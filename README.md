@@ -11,11 +11,21 @@ REQUIREMENTS:
 3 php-crud-api
 
 
-SECURITY:
+FileMaker SECURITY:
 
 admin / admin
 
+
+PHP TO DO:
+
+1 put api.php from php-crud-api into http documentroot
+
+2 configure mysql user / pass in api.php - line 2696 to 2703 - according to your MySQL config
+
+
 MySQL TO DO:
+
+1 create a database called 'test' and create a 'test' table
 
 CREATE TABLE `test` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -27,9 +37,9 @@ CREATE TABLE `test` (
 
 to use:
 
-1 sign up for nexmo.com
+1 create MySQL 'test' table
 
-2 get key - put into SMS Nexmo.fmp12
+2 configure
 
 3 get secret - put into SMS Nexmo.fmp12
 
