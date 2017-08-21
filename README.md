@@ -39,18 +39,10 @@ to use:
 
 1 create MySQL 'test' table
 
-2 configure
+2 configure api.php
 
-3 get secret - put into SMS Nexmo.fmp12
+3 open RESTJSON.fmp12
 
-4 get nexmo number - put into from field in SMS Nexmo.fmp12
+4 ???
 
-5 enter the phone number you want to send to into send number field
-
-6 enter the message to send
-
-7 click SEND
-
-8 ???
-
-9 EVEN MORE PROFIT
+5 EVEN MAWR PROFIT
